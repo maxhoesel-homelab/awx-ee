@@ -8,6 +8,7 @@ on:
   schedule:
     # build every 12 hours
     - cron: '0 */12 * * *'
+  workflow_dispatch:
 
 jobs:
   build_and_push_latest:
